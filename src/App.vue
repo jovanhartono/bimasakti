@@ -1,24 +1,27 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
   <header class="sticky top-0 z-50 h-18 bg-white/50 backdrop-blur">
     <nav class="mx-auto flex h-full max-w-screen-lg items-center p-4">
-      <RouterLink to="/">
+      <a href="#">
         <img
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
           draggable="false"
-          src="https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPK0IVi91HBhyQbeCRGNZt0UP57daFTruIXJpD"
+          src="https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPK6XwId1HBhyQbeCRGNZt0UP57daFTruIXJpD"
           alt="bimasakti wordmark"
           class="h-6"
         />
-      </RouterLink>
-      <ul class="ml-auto flex items-center gap-x-4 font-medium">
+      </a>
+      <div class="ml-auto flex items-center gap-x-4 text-sm font-medium">
         <a href="#about" class="ml-auto">About Us</a>
         <a href="#contact" class="ml-auto rounded-md bg-blue-900 px-3 py-2 text-white"
           >Contact Us</a
         >
-      </ul>
+      </div>
     </nav>
   </header>
 

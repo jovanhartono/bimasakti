@@ -4,9 +4,9 @@ import { ORBIT_DIRECTION } from '@/components/orbit'
 import Orbit from '@/components/orbit/OrbitComponent.vue'
 
 const propertyImages = [
-  'https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPtE2yzibMXN8iC67FPJncArImDZUx9EO02fBy',
-  'https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scP14inAaOTZE63AF2xdSCBNp7m0h4OeaYjWgXi',
-  'https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPvpK7Ao5uAOShy67MRpoxbJKudaDlUI9Bet18',
+  'https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPUTxm5Xq8flCdQOAPv1XWbw5rVGjp3KkJEiSD',
+  'https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPl26BD39AV0pmdhg1jn8rSqJbE9CF4HiUGDXN',
+  'https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPmw4CkU1ProDmsk0lfqcZuEAe93hGi1YdQWav',
 ]
 </script>
 
@@ -35,11 +35,11 @@ const propertyImages = [
     <section class="flex flex-col gap-y-4">
       <img
         loading="eager"
-        src="https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPGOV7KykM17X0cqZiQLf9YUrNo5mnbEjStdxs"
+        src="https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPKMf7cOE1HBhyQbeCRGNZt0UP57daFTruIXJp"
         alt="gold background"
         decoding="async"
         fetchpriority="high"
-        class="container h-[500px] object-cover"
+        class="container h-[350px] object-cover sm:h-[500px]"
       />
 
       <!-- about us -->
@@ -110,7 +110,7 @@ const propertyImages = [
         <img
           loading="lazy"
           decoding="async"
-          src="https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPNeRzpya7STsH5YjPXuaUl9y8nvtJfZebGmWO"
+          src="https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPczPzdrjue8RPKOD2CnAfwGUZVdkbBLaTM1SN"
           alt="gold hand"
           class="h-[200px] w-auto object-contain sm:h-[250px]"
         />
@@ -125,7 +125,7 @@ const propertyImages = [
           <img
             loading="lazy"
             decoding="async"
-            src="https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPLrIYGjxnrUxvHPg3lpuYeFMqEOJ2cw5A8jiB"
+            src="https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPi0bzu6sGTWmQc716zsqCXZxAo0ehNdJOrj3l"
             alt="platinum nugget"
           /> </Orbit
         ><Orbit
@@ -138,7 +138,7 @@ const propertyImages = [
           <img
             loading="lazy"
             decoding="async"
-            src="https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPWDCe2Ipk26bKcLzVu5fI3ZFq1t8Nh7EynwJO"
+            src="https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPKaZW5g1HBhyQbeCRGNZt0UP57daFTruIXJpD"
             alt="silver nugget"
           /> </Orbit
         ><Orbit
@@ -151,7 +151,7 @@ const propertyImages = [
           <img
             loading="lazy"
             decoding="async"
-            src="https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPMLyTjFGqO7Wt5DibF9rTgsjhX2GImpCuAVUP"
+            src="https://xnxk060v5p.ufs.sh/f/D0ooyPBt8scPkDg5XQMfg4KV6QXDxA8ebpvOj9J23HTZMYhL"
             alt="gold nugget"
           />
         </Orbit>
