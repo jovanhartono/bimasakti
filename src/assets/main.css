@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+@theme {
+  --default-font-family: 'Inter Tight';
+  --font-handwriting: 'Ballet';
+}
+
+@layer base {
+  * {
+    @apply scroll-mt-[88px] border-gray-400;
+  }
+
+  p {
+    @apply leading-relaxed text-pretty opacity-70 max-sm:text-sm;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    font-stretch: normal;
+    font-optical-sizing: auto;
+    @apply bg-white;
+  }
+}
+
+@utility container {
+  max-width: 1024px;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+
+@layer components {
+  .bg-gradient-brand {
+    @apply bg-gradient-to-br from-red-400 to-blue-500 bg-clip-text text-transparent;
+  }
+}
