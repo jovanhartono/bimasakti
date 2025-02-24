@@ -29,7 +29,7 @@ import { RouterView } from 'vue-router'
 
   <footer class="flex h-20 items-center border-t bg-gradient-to-br px-0 text-blue-950">
     <div class="container tracking-wide max-sm:text-center max-sm:text-sm max-sm:text-balance">
-      &copy; 2025 PT Bimasakti Nawasena Sejahtera. All rights reserved.
+      &copy; 2025 PT Bimasakti Nawasena Sentosa. All rights reserved.
     </div>
   </footer>
 </template>
